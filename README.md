@@ -1,16 +1,17 @@
 # LendingClubClassification
  Classifying Defaults on Lending Club Loans
 
- Data Science project to determine features that are most important to determine defaults on personal loans.
+Data Science project to determine features that are most important to determine defaults on personal loans.
 
- File Listing:
+Takeaways: Best features for predicting default before a loan is ever issued are: borrowers with a high number of months since oldest revolving account opened, lower loan amounts & payments, a low number of total accounts, higher annual incomes, and a high number of months since the most recent installment accounts were opened.
 
+File Listing:
 Column Descriptions.xlsx - descriptions of the 100+ columns in the dataset.
 
 Final Report Doc.pdf - Written report of my process including more detailed discussion of our problem and the conclusions reached. Features many snipped images from the jupyter notebooks.
 
 Jupyter Notebooks:
-0 – Initial Data Cut: This is a really short notebook where I cut the data from 11 years of data down to 
+0 – Initial Data Cut: This is a really short notebook where I cut the data from 11 years of data down to
 three.
 
 1 – Data Cleaning: shows all manner of data cleaning and pruning of features.
