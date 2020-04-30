@@ -11,6 +11,7 @@ Column Descriptions.xlsx - descriptions of the 100+ columns in the dataset.
 Final Report Doc.pdf - Written report of my process including more detailed discussion of our problem and the conclusions reached. Features many snipped images from the jupyter notebooks.
 
 Jupyter Notebooks:
+
 0 – Initial Data Cut: This is a really short notebook where I cut the data from 11 years of data down to
 three.
 
