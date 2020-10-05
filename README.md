@@ -1,5 +1,7 @@
 # Predicting Defaults on Personal Loans
 
+<img src="https://github.com/Huntsworth7/LendingClubClassification/blob/master/images/lending_club_logo.JPG">
+
 Building a model to predict defaults on loans from Lendingclub, a peer-to-peer lending company.
 
 This was my first ever Data Science project. At least the first one that contains all the typical steps of cleaning, EDA, visualization, and model building.
@@ -7,7 +9,7 @@ I wanted a topic that I had familiarity with. I worked in the mortgage industry 
 to pre-qualify clients for homes so I was really in my element here.   
 
 ## Project Overview:
-- Model achieved 93% F1 score/Accuracy.
+- Model accurately classified 96% of good loans and 76% of defaulted loans. 
 - Original dataset was from [kaggle](https://www.kaggle.com/wordsforthewise/lending-club) and was cut down to 3 years.
 - Large dataset even after cutting: 1.3 million rows by 151 columns.
 - With so many features, extensive EDA was performed.
@@ -57,9 +59,10 @@ I worked with Logistic Regression, Gradient Boosting, and Random Forest algorith
 
 
 ## Model Performance
-Here's the ROC AUC graph for all three classifiers. Gradient Boosting outperforms Random Forest by the slimmest of margins.
+Here's the ROC curve for all three classifiers. Gradient Boosting outperforms Random Forest by the slimmest of margins: <br><br>
+<img src="https://github.com/Huntsworth7/LendingClubClassification/blob/master/images/roc_curve.JPG" width="540">
 
-Hyperparameter Optimization was performed but did not yield any improvements. Big improvements.
+Hyperparameter Optimization was performed but did not yield any noticeable improvements.
 
 ## Takeaways
 According to our model, the most important features for predicting a good loan are:
