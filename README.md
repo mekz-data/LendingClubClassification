@@ -19,22 +19,21 @@ to pre-qualify clients for homes so I was really in my element here.
 **Column Descriptions.xlsx:** Descriptions for the 100+ columns in the dataset.
 **Final Report Doc.pdf:** Written report of my process including more detailed discussion of our problem and the conclusions reached. Features many snipped images from the jupyter notebooks.
 
-
 **<ins>Jupyter Notebooks:</ins>**
--**0 – Initial Data Cut:** Short notebook where I cut the data from 11 years of data to the years 2015-2017.
--**1 – Data Cleaning:** All manner of data cleaning and pruning of features.
--**2 – Exploratory Data Analysis:** Extensive EDA is performed along with one hot encoding and further pruning of features to prepare the data for Machine Learning.
--**3 – Initial ML Testing:** Testing out multiple algorithms including Logistic Regression, Random Forest, and Gradient Boosting. Also experimented with upsampling and downsampling.
--**4 – Hyperparameter Optimization and Final Analysis:** Attempted optimization of our Gradient Boosting algorithm and ends with an exploration of the model's feature importances to determine best predictors of loan defaults. 
+- **0 – Initial Data Cut:** Short notebook where I cut the data from 11 years of data to the years 2015-2017.
+- **1 – Data Cleaning:** All manner of data cleaning and pruning of features.
+- **2 – Exploratory Data Analysis:** Extensive EDA is performed along with one hot encoding and further pruning of features to prepare the data for Machine Learning.
+- **3 – Initial ML Testing:** Testing out multiple algorithms including Logistic Regression, Random Forest, and Gradient Boosting. Also experimented with upsampling and downsampling.
+- **4 – Hyperparameter Optimization and Final Analysis:** Attempted optimization of our Gradient Boosting algorithm and ends with an exploration of the model's feature importances to determine best predictors of loan defaults. 
 
 ## Code and Resources Used
-**Python Version:** 3.7
-**Packages used:** pandas, numpy, matplotlib, scikit-learn, LightGBM, Seaborn, Imblearn, and scikit-optimize.
+**Python Version:** 3.7<br>
+**Packages used:** pandas, numpy, matplotlib, scikit-learn, LightGBM, Seaborn, Imblearn, and scikit-optimize.<br>
 **Article:** [Hyperparameter Tuning with Bayesian Optimization](https://medium.com/@vincent.kr18/hyper-parameter-tuning-using-bayesian-optimisation-code-b50e0e8abe20)
 
 
 ## Features
-The dataset has There are far too many features to go over all of them but the highlights include:
+The dataset has far too many features to go over all of them but the most important ones include:
 - **Interest Rate:** the interest rate on the loan. 
 - **Fico Score & Most Recent Fico Score:** Fico score at loan approval and most recent fico score. 
 - **Total Accounts:** Total accounts on borrower's credit. 
@@ -51,16 +50,25 @@ The dataset has There are far too many features to go over all of them but the h
 - Filled some missing values with -999 to indicate that the event in question never occurred. 
 
 ## EDA
-EXploratory Data Analysis makes up quite a bit of this project and I would encourage you to look at my notebook if you're at all curious.
+With so many features, exploratory Data Analysis makes up quite a bit of this project and I would encourage you to look at my notebook if you're at all curious at what all was done. 
 
 ## Model Building
-
-## Model Performance 
-
+I worked with with Logistic Regression, Gradient Boosting, and Random Forest algorithms. As this was a highly imbalanced dataset (only 15% of loan were defaulted), I also experimenting with upsampling to balance this out. 
 
 
-Takeaways: Best features for predicting default before a loan is ever issued are: borrowers with a high number of months since oldest revolving account opened, lower loan amounts & payments, a low number of total accounts, higher annual incomes, and a high number of months since the most recent installment accounts were opened.
+## Model Performance
+Here's the ROC AUC graph for all three classifiers. Gradient Boosting outperforms Random Forest by the slimmest of margins. 
+
+Hyperparameter Optimization was performed but did not yield any improvements. Big improvements.
+
+## Takeaways
+According to our model, the most important features for predicting a good loan are: 
+- borrowers with a high number of months since oldest revolving account opened 
+- lower loan amounts & payments
+- a low number of total accounts 
+- higher annual incomes 
+- a high number of months since the most recent installment accounts were opened.
+
+This project was a great learning experience. Looking at it again while updating this Readme, I see plenty of improvements or augmentations that I would make if I were working on it today. That being said, I am going to keep it as it is to act as my Data Science time capsule. 
 
 
-## Model Building:
-## Model Performance:
