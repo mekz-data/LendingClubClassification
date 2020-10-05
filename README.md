@@ -18,8 +18,8 @@ to pre-qualify clients for homes so I was really in my element here.
 - Analysis of feature importances to determine best predictors of loan defaults.
 
 ## File List
-**Column Descriptions.xlsx:** Descriptions for the 100+ columns in the dataset.
-**Final Report Doc.pdf:** Written report of my process including more detailed discussion of our problem and the conclusions reached. Features many snipped images from the jupyter notebooks.
+**Column Descriptions.xlsx:** Descriptions for the 100+ columns in the dataset.<br>
+**Final Report Doc.pdf:** Written report of my process including more detailed discussion of our problem and the conclusions reached. It contains many visualizations from the jupyter notebooks.<br>
 
 **<ins>Jupyter Notebooks:</ins>**
 - **0 – Initial Data Cut:** Short notebook where I cut the data from 11 years of data to the years 2015-2017.
