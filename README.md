@@ -18,15 +18,15 @@ to pre-qualify clients for homes so I was really in my element here.
 - Analysis of feature importances to determine best predictors of loan defaults.
 
 ## File List
-**Column Descriptions.xlsx:** Descriptions for the 100+ columns in the dataset.<br>
-**Final Report Doc.pdf:** Written report of my process including more detailed discussion of our problem and the conclusions reached. It contains many visualizations from the jupyter notebooks.<br>
+**[Column Descriptions.xlsx:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/Column%20Descriptions.xlsx)** Descriptions for the 100+ columns in the dataset.<br>
+**[Final Report Doc.pdf:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/Final%20Report%20Doc.pdf)** Written report of my process including more detailed discussion of our problem and the conclusions reached. It contains many visualizations from the jupyter notebooks.<br>
 
 **<ins>Jupyter Notebooks:</ins>**
-- **0 – Initial Data Cut:** Short notebook where I cut the data from 11 years of data to the years 2015-2017.
-- **1 – Data Cleaning:** All manner of data cleaning and pruning of features.
-- **2 – Exploratory Data Analysis:** Extensive EDA is performed along with one hot encoding and further pruning of features to prepare the data for Machine Learning.
-- **3 – Initial ML Testing:** Testing out multiple algorithms including Logistic Regression, Random Forest, and Gradient Boosting. Also experimented with upsampling and downsampling.
-- **4 – Hyperparameter Optimization and Final Analysis:** Attempted optimization of our Gradient Boosting algorithm and ends with an exploration of the model's feature importances to determine best predictors of loan defaults.
+- **[0 – Initial Data Cut:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/0%20-%20Initial%20Data%20Cut%20.ipynb)** Short notebook where I cut the data from 11 years of data to the years 2015-2017.
+- **[1 – Data Cleaning:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/2%20-%20Exploratory%20Data%20Analysis.ipynb)** All manner of data cleaning and pruning of features.
+- **[2 – Exploratory Data Analysis:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/2%20-%20Exploratory%20Data%20Analysis.ipynb)** Extensive EDA is performed along with one hot encoding and further pruning of features to prepare the data for Machine Learning.
+- **[3 – Initial ML Testing:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/3%20-%20Initial%20ML%20Testing.ipynb)** Testing out multiple algorithms including Logistic Regression, Random Forest, and Gradient Boosting. Also experimented with upsampling and downsampling.
+- **[4 – Hyperparameter Optimization and Final Analysis:](https://github.com/Huntsworth7/LendingClubClassification/blob/master/4%20-%20Hyperparameter%20Optimization%20and%20Final%20Analysis.ipynb)** Attempted optimization of our Gradient Boosting algorithm and ends with an exploration of the model's feature importances to determine best predictors of loan defaults.
 
 ## Code and Resources Used
 **Python Version:** 3.7<br>
